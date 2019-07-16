@@ -1,0 +1,40 @@
+/*
+ * Filename:    feedback-form.css
+ * Author:      Andrew Laing
+ * Email:       parisianconnections@gmail.com
+ * Date:        31/05/2019.
+ * Description: CSS file used by the feedback form of Mai-Lin's Vegan Takeaway
+ *              restaurant website.
+ */
+
+input[type=text], [type=password], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-image: url('../imgs/bgimage.jpg'); 
+  padding: 20px;
+}
+
